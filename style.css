@@ -516,7 +516,8 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    visibility: hidden;
+    /*Replace opacity by visibility*/
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -739,6 +740,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+;black {
+    color: #000!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -780,7 +785,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
