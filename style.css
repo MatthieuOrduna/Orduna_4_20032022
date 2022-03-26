@@ -744,6 +744,16 @@ h4 {
     color: #000!important;
 }
 
+.quote{
+    color: grey;
+    font-size: 22px;
+}
+
+.txt-img{
+    color: black;
+    font-size: 22px;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
