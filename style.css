@@ -1033,10 +1033,28 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .row {
+        max-width: 100%;
+    }
+    .col-sm-12{
+        max-width : 100%;
+    }
+    .mobile img{
+        width : 110%;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .row {
+        max-width: 100%;
+    }
+    .col-sm-12{
+        max-width : 100%;
+    }
+    .mobile img{
+        width : 100%;
     }
 }
